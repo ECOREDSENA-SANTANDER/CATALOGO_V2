@@ -1,4 +1,16 @@
 @use '../variables' as *
+.tarjeta-slyder-a
+  border-radius: 20px;
+  @media screen and (max-width: $bp-max-md)
+    width: 95%
+    margin: 0 auto
+  @media screen and (max-width: $bp-min-md)
+    width: 90%
+    margin: 0 auto
+  @media screen and (max-width: $bp-min-sm)
+    width: 80%
+    margin: 0 auto
+  
 .slyder-a
   position: relative
   &__btn
@@ -22,6 +34,7 @@
         opacity: 1
         box-shadow: 0 0 5px 0px rgba(0,0,0,0.3)
         border-color: $white
+      
 
   &__bullets
     display: flex
@@ -58,18 +71,44 @@
         &--sigt
           transform: translateY(-50%) rotate(-90deg)
           right: 15px
+          @media screen and (max-width: $bp-max-md)
+            right: -13%
+            width: 40px
+            height: 40px
+          @media screen and (max-width: $bp-min-md)
+            right: -15%
+            width: 40px
+            height: 40px
+          @media screen and (max-width: $bp-min-sm)
+            right: -30%
+            width: 30px
+            height: 30px
           .indicador__container
             transform: translateY(15px) rotate(90deg)
 
         &--atrs
           transform: translateY(-50%) rotate(90deg)
           left: 15px
+          @media screen and (max-width: $bp-max-md)
+            left: -13%
+            width: 40px
+            height: 40px
+          @media screen and (max-width: $bp-min-md)
+            left: -15%
+            width: 40px
+            height: 40px
+          @media screen and (max-width: $bp-min-sm)
+            left: -30%
+            width: 30px
+            height: 30px
 
       &__bullets
         position: absolute
         bottom: 50px
         left: 50%
         transform: translateX(-50%)
+        @media screen and (max-width: $bp-min-sm)
+          bottom: 15px
 
   &__tipo-b
     position: relative

@@ -359,14 +359,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],
   glosario: [
     {
       termino: 'Término',
@@ -375,8 +367,44 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Blanco, L. A. (2013). Ética integral. Bogotá, Colombia: Ecoe Ediciones.',
+      link: 'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/69262?page=59',
+    },
+    {
+      referencia:
+        'Block, S. (2013). Fundamentos de administración financiera. McGraw Hill Interamericana.',
       link: '',
+    },
+    {
+      referencia:
+        'Calleja, F. (2014). Contabilidad Administrativa. México: Editorial Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Krugman, O. (2008). Fundamentos de Economía. Barcelona. Editorial Reverté.',
+      link: '',
+    },
+    {
+      referencia:
+        'Oró, R. (2015). La protección de datos. Barcelona, Spain: Editorial UOC.',
+      link: 'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/57741?page=12',
+    },
+    {
+      referencia:
+        'Pérez, L. (2007). Negociación Asertiva, una visión diferente de la cobranza. México. ICM División editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Raju, J. (2010). Fijando Precios para Ganar Competitividad. Barcelona. Profit Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Angulo Novoa, J. C., & Maldonado Piracon, W. A. (2016). SISTEMAS DE INFORMACIÓN GERENCIAL TIPO TRANSACCIONAL PARA PYMES. Ágora, 3(3), 60–75.',
+      link: 'https://ojs.tdea.edu.co/index.php/agora/article/view/242',
     },
   ],
   creditos: [
@@ -384,12 +412,12 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: '---',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },

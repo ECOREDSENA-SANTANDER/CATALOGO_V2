@@ -41,7 +41,7 @@
       p.mb-5 Provee mayor espacio para la explicación textual así que es óptima para la definición de conceptos completos y extensos. No se asocia a pasos específicos o tipificaciones sino que puede abarcar una temática completa dividida en secciones.
   
       h3.titulo-tercero Opción 1 - Tipo a
-      .tarjeta.tarjeta--azul.p-4.pb-0.mb-4
+      .tarjeta-slyder-a.tarjeta--azul.p-4.pb-0.mb-4
         SlyderA.pb-lg-5.pb-3(tipo="a")
           .row.justify-content-center.align-items-center.my-lg-4.mb-5
             .col-md-5.mb-4.mb-md-0

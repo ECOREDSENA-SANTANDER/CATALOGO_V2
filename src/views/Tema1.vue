@@ -507,7 +507,7 @@
             a.lnk(@click="modal1 = true") Abrir modal 
             |the height of your stature, it’s the heft of your spirit.
       
-      ModalA(:abrir-modal.sync="modal1")
+      ModalA(v-model:abrir-modal="modal1")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Modal 1

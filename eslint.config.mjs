@@ -9,6 +9,14 @@ export default [
   js.configs.recommended,
   ...pluginVue.configs['flat/recommended'],
   {
+    files: ['**/*.mjs'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
+  {
     files: ['**/*.vue', '**/*.js'],
     languageOptions: {
       parser: parserVue,

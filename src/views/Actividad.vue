@@ -9,7 +9,7 @@
   </template>
 
 <script>
-import ActividadController from '@ecored-sena/qa-kit/plugin/components/actividad/ActividadController.vue'
+import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
 
 export default {
   name: 'ActividadDidactica',

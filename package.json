@@ -6,21 +6,22 @@
     "serve": "vite",
     "build": "vite build --mode file",
     "zip": "node scripts/build-material-zip.mjs",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "build-plugin": "vite build"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
+    "@ecored-sena/boulder-kit": "^1.0.0",
     "@fortawesome/fontawesome-free": "^7.2.0",
     "@popperjs/core": "^2.11.8",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
+    "prismjs": "^1.30.0",
     "vue": "^3.5.30",
     "vue-router": "^4.2.0",
-    "vuex": "^4.1.0",
-    "@ecored-sena/boulder-kit": "^1.0.0"
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

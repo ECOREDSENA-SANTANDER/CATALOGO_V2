@@ -58,6 +58,42 @@ figcaption
 .clr--gris
   background-color: #f7f7f7
 
+/// TITULOS TERCER NIVEL
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: $color-primario
+  border-radius: 30px
+  padding-right: 16px
+  padding-left: 52px
+  min-height: 48px
+ 
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
+
+
+  &__icon
+    position: absolute
+    left: -10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 65px
+    max-width: 65px
+    height: auto
+
+    @media screen and (max-width: $bp-min-md)
+      display: none
+
+  &__text
+    margin: 0
+    margin: 0 15px 0 15px
+    white-space: normal
+    word-break: break-word
+
+
 
 ///// Texto --------------------------------------
 .cstmH3
@@ -101,6 +137,94 @@ figcaption
   width: 250px  
 .brd--rad
   border-radius: 20px
+
+///// Callouts --------------------------------------
+.callout-wrap
+  position: relative
+  padding-left: 22px
+  
+  @media screen and (max-width: $bp-min-lg)
+    padding-left: 0
+    padding-top: 30px
+
+  &-inverso
+    padding-left: 0
+    padding-right: 22px
+
+    @media screen and (max-width: $bp-min-lg)
+      padding-right: 0
+      padding-bottom: 30px
+
+.callout-box
+  position: relative
+  background-color: $color-primario
+  border-radius: 6px
+  overflow: visible
+  @media screen and (max-width: $bp-min-lg)
+      padding-top: 2.3rem !important;
+
+ 
+
+  &::before
+    content: ''
+    position: absolute
+    top: 50%
+    left: -22px
+    width: 44px
+    height: 44px
+    background-color: $color-primario
+    transform: translateY(-50%) rotate(45deg)
+
+    @media screen and (max-width: $bp-min-lg)
+        top: -18px
+        left: 50%
+        transform: translateX(-50%) rotate(45deg)
+  
+  &-inverso
+    background-color: $color-secundario
+    position: relative
+    border-radius: 6px
+    overflow: visible
+    @media screen and (max-width: $bp-min-lg)
+      padding-bottom: 2.3rem !important;
+
+
+    &::before
+      content: ''
+      position: absolute
+      top: 50%
+      right: -20px
+      width: 44px
+      height: 44px
+      background-color: $color-secundario
+      transform: translateY(-50%) rotate(45deg)
+
+      @media screen and (max-width: $bp-min-lg)
+          top: 90%
+          left: 50%
+          transform: translateX(-50%) rotate(45deg)
+  
+.tarjeta-codigo
+  border-radius: 10px
+  overflow: hidden
+  position: relative
+  padding-top: 3rem
+  &:before
+    position: absolute
+    content: ''
+    height: 55px
+    background-color: #3a1d71
+    width: 100%
+    top: 0
+    left: 0
+  &:after
+    position: absolute
+    content: url('../assets/curso/temas/botones.svg')
+    top: 0
+    left: 0
+    transform: translate(20px, 20px)
+
+
 .hr--line
   margin: 1rem 0
   width: 100%

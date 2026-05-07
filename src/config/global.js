@@ -318,6 +318,12 @@ export default {
         titulo: 'Dialogos',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema15',
+        numero: '15',
+        titulo: 'Bloques de código',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

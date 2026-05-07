@@ -21,16 +21,11 @@
           .titulo-segundo.color-primario
             h2 1.1  Título de segundo nivel, 24pt
 
-          h3.titulo-tercero Título de tercer nivel, 20pt 
+          .titulo-tercer-nivel.mb-5(data-aos="fade-right")
+            img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+            h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Título de tercer nivel, 20pt
 
-          h4.titulo-cuarto Título de cuarto nivel, 18pt
-
-          .titulo-quinto.color-primario
-            h4 Título de quinto nivel, 18pt
-
-          .titulo-sexto.color-primario.mb-4
-            h5 Título de sexto nivel, 16pt
-            span subtitulo
+         
 
       .row.justify-content-center.mb-4
         .col-auto
@@ -227,11 +222,32 @@
             br
             br
             | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure.                 
-      .row.justify-content-center.mt-4
+      .row.justify-content-center.mt-4.mb-5
         .col-auto
           a.boton.color-botones.texto-blanco(:href="obtenerLink('/downloads/t1/Cajon3.txt')" target="_blank" type="application/pdf")
             span Ver código fuente 
 
+      
+      .row.justify-content-center.align-items-center.mb-5
+          .col-12.col-sm-8.col-lg-4
+              img(src='@/assets/curso/temas/img1.svg').m-auto
+          .col-12.col-sm-12.col-lg-8
+            .callout-wrap
+              .callout-box.p-4.p-md-5
+                p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta justo. Praesent congue nibh a justo ornare, eget vulputate nisl eleifend. Cras interdum finibus lacinia. Fusce dignissim sapien sit amet orci imperdiet, pharetra maximus nisi ullamcorper. Aliquam interdum elit ac nisi viverra, ultrices finibus est ultricies. Fusce tincidunt velit nulla. Aliquam eleifend libero eu neque rhoncus, sed placerat mi ornare.
+
+      .row.justify-content-center.align-items-center.mb-5
+          .col-12.col-sm-12.col-lg-8
+            .callout-wrap-inverso
+              .callout-box-inverso.p-4.p-md-5
+                p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta justo. Praesent congue nibh a justo ornare, eget vulputate nisl eleifend. Cras interdum finibus lacinia. Fusce dignissim sapien sit amet orci imperdiet, pharetra maximus nisi ullamcorper. Aliquam interdum elit ac nisi viverra, ultrices finibus est ultricies. Fusce tincidunt velit nulla. Aliquam eleifend libero eu neque rhoncus, sed placerat mi ornare.
+          .col-12.col-sm-8.col-lg-4
+              img(src='@/assets/curso/temas/img1.svg').m-auto
+      
+      .row.justify-content-center.mt-4.mb-5
+        .col-auto
+          a.boton.color-botones.texto-blanco(:href="obtenerLink('/downloads/t1/Callouts.txt')" target="_blank" type="application/pdf")
+            span Ver código fuente 
 
       Separador
       #t_1_5.titulo-segundo.color-acento-contenido

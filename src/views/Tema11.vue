@@ -33,26 +33,26 @@
       .row
         .col-md-6
           TarjetaAudio.color-primario.mb-4(
-            texto="Texto de muestra  "
-            :audio="audioEj"
+            texto="Texto de muestra  REQUIERE AUDIO"
+            :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         .col-md-6  
           TarjetaAudio.color-secundario.mb-4(
             texto="Texto de muestra "
-            :audio="audioEj"
+            :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
           )
         .col-md-6
           TarjetaAudio.color-acento-contenido.mb-4(
             texto="Texto de muestra "
-            :audio="audioEj"
+            :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
             no-barra
           )
         .col-md-6
           TarjetaAudio.color-acento-botones.mb-4(
             texto="Texto de muestra "
-            :audio="audioEj"
+            :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
           )
       
       .row.justify-content-center.mb-5
@@ -72,7 +72,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-contenido.mb-3(
               texto="Mom, can you come with me to the doctor's office?"
-              :audio="audio5"
+              :audio="require_src('@/assets/curso/temas/audio/5.mp3')"
           )
               p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?
         .col-lg-4
@@ -80,7 +80,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="How are you doing, Doctor? Nice to meet you."
-              :audio="audio6"
+              :audio="require_src('@/assets/curso/temas/audio/6.mp3')"
             )
               p.mb-0 ¿Cómo está, doctor? Es un placer conocerlo.
         .col-lg-4
@@ -88,7 +88,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Ok, Coach. I will follow your advice."
-              :audio="audio7"
+              :audio="require_src('@/assets/curso/temas/audio/7.mp3')"
             )
               p.mb-0 Muy bien, entrenador. Voy a seguir su consejo.
       
@@ -104,18 +104,9 @@
   </template>
 
 <script>
-import audioEj from '@/assets/componentes/audios/audio-ej.mp3'
-import audio5 from '@/assets/curso/temas/audio/5.mp3'
-import audio6 from '@/assets/curso/temas/audio/6.mp3'
-import audio7 from '@/assets/curso/temas/audio/7.mp3'
-
 export default {
   name: 'Tema11',
   data: () => ({
-    audioEj,
-    audio5,
-    audio6,
-    audio7,
     mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {

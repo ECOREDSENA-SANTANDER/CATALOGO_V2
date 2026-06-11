@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     TabsB.color-primario.mb-4
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require_src('@/assets/componentes/ej-04.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Celebrate your failures 1
@@ -14,7 +14,7 @@
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
               figcaption Leyenda de la imagen
       
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require_src('@/assets/componentes/ej-04.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             figure

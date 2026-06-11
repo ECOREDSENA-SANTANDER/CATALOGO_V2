@@ -10,7 +10,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-contenido.mb-3(
               texto="Mom, can you come with me to the doctor's office?"
-              :audio="require('@/assets/curso/temas/audio/5.mp3')"
+              :audio="require_src('@/assets/curso/temas/audio/5.mp3')"
           )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               p.mb-0 Mamá, ¿puedes venir conmigo al consultorio del doctor?
@@ -19,7 +19,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="How are you doing, Doctor? Nice to meet you."
-              :audio="require('@/assets/curso/temas/audio/6.mp3')"
+              :audio="require_src('@/assets/curso/temas/audio/6.mp3')"
             )
               p.mb-0 ¿Cómo está, doctor? Es un placer conocerlo.
         .col-lg-4
@@ -27,7 +27,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Ok, Coach. I will follow your advice."
-              :audio="require('@/assets/curso/temas/audio/7.mp3')"
+              :audio="require_src('@/assets/curso/temas/audio/7.mp3')"
             )
               p.mb-0 Muy bien, entrenador. Voy a seguir su consejo.
 

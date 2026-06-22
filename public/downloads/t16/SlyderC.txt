@@ -1,0 +1,31 @@
+<template lang="pug">
+.bg--gradientBlue.p-5
+  SlyderC(:datos="datosSlyderC")
+</template>
+
+<script>
+export default {
+  data: () => ({
+    datosSlyderC: [
+      {
+        titulo: 'Título SlyderC 1',
+        texto: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta justo. Praesent congue nibh a justo ornare, eget vulputate nisl eleifend.',
+        imagen: '@/assets/template/img-placeholder.svg',
+        leyendaImagen: 'Leyenda imagen 1',
+      },
+      {
+        titulo: 'Título SlyderC 2',
+        texto: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+        imagen: '@/assets/template/img-placeholder.svg',
+        leyendaImagen: 'Leyenda imagen 2',
+      },
+      {
+        titulo: 'Título SlyderC 3',
+        texto: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        imagen: '@/assets/template/img-placeholder.svg',
+        leyendaImagen: 'Leyenda imagen 3',
+      },
+    ],
+  }),
+}
+</script>

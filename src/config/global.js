@@ -324,6 +324,12 @@ export default {
         titulo: 'Bloques de código',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema16',
+        numero: '16',
+        titulo: 'Slyder Secuencial',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

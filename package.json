@@ -13,7 +13,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@ecored-sena/boulder-kit": "^1.0.0",
+    "@ecored-sena/boulder-kit": "^1.0.5",
     "@fortawesome/fontawesome-free": "^7.2.0",
     "@popperjs/core": "^2.11.8",
     "aos": "^2.3.4",

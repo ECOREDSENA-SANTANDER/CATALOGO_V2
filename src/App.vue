@@ -3,7 +3,7 @@
   Header
   .contenedor-principal
     AsideMenu
-    section.seccion-principal(:class="{'seccion-principal--barra-avance-open' : !menuState}")
+    section.seccion-principal
       router-view
   BarraAvance
   Accesibilidad
@@ -12,11 +12,6 @@
 <script>
 export default {
   name: 'App',
-  computed: {
-    menuState() {
-      return this.$store.getters.isMenuOpen
-    },
-  },
   mounted() {
     this.$aos.init({
       offset: 100,

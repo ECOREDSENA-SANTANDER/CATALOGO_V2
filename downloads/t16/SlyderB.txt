@@ -1,0 +1,23 @@
+<template lang="pug">
+.bg--gradientBlue.p-5
+  SlyderB(:datos="datosSlyder")
+</template>
+
+<script>
+export default {
+  data: () => ({
+    datosSlyder: [
+      {
+        titulo: 'Never, never assume that what you have achieved is good enough',
+        texto: 'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: '@/assets/template/img-placeholder.svg',
+      },
+      {
+        titulo: 'Never, never assume that what you have achieved is good enough',
+        texto: 'Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original.',
+        imagen: '@/assets/template/img-placeholder.svg',
+      },
+    ],
+  }),
+}
+</script>

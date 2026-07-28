@@ -1,0 +1,34 @@
+<template lang="pug">
+.bg--gradientBlue.p-5
+  SlyderE(indicadores="centro")
+    div
+      .row.align-items-center
+        .col-md-6
+          h4 Título SlyderE 1
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta justo.
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+    div
+      .row.align-items-center
+        .col-md-6
+          h4 Título SlyderE 2
+          p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+    div
+      .row.align-items-center
+        .col-md-6
+          h4 Título SlyderE 3
+          p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+</template>
+
+<script>
+export default {
+  data: () => ({}),
+}
+</script>
